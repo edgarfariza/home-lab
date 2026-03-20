@@ -6,7 +6,7 @@ Coleccion de herramientas Bash para gestion de Home Lab.
 
 ### 1. monitor.sh
 Estado del sistema en tiempo real (RAM, Disco, CPU).
-- Ejecucion: `./monitor.sh`
+- Ejecucion: `/home/edgar/Scripts/monitor.sh`
 
 ### 2. backup.sh
 Copia comprimida de /home/edgar en /var/backup.
@@ -19,4 +19,8 @@ Configuracion de bienvenida que muestra informacion general (datos del usuario, 
 
 ### 4. cleanup.sh
 Actualizacion del sistema mediante sudo apt update y eliminacion de archivos temporales almacenados.
+
+### 5. network_check.sh
+Verificacion de la conexion a internet del sistema enviando un paquete ping -c 1 y esperando 2 segundos la respuesta de la red w 2
+- Ejecucion: `/home/edgar/Scripts/network_check.sh`
 
