@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "=========================================="
+echo " INICIANDO MANTENIMIENTO DEL SISTEMA"
+echo "=========================================="
+
+# 1. Actualizar indices de repositorios
+echo "[1/4] Actualizando lista de paquetes..."
+sudo apt update
+
+# 2. Actualizar paquetes instalados
+echo "[2/4] Instalando actualizaciones disponibles..."
+# -y confirma automaticamente para que no se detenga el script
+sudo apt upgrade -y
+
+# 3. Limpieza de paquetes innecesarios
+echo "[3/4] Eliminando dependencias huerfanas y archivos temporales de apt..."
+sudo apt autoremove -y
+sudo apt autoclean
+
+# 4. Limpieza de la papelera de reciclaje del usuario
+echo "[4/4] Vaciando papelera de /home/edgar..."
+rm -rf /home/edgar/.local/share/Trash/*
+
+echo "=========================================="
+echo " MANTENIMIENTO FINALIZADO CON EXITO"
+echo " $(date +'%d/%m/%Y %H:%M:%S')"
+echo "=========================================="
