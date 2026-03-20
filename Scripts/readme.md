@@ -17,3 +17,6 @@ Copia comprimida de /home/edgar en /var/backup.
 Configuracion de bienvenida que muestra informacion general (datos del usuario, hora, calendario, recordatorios creados por el usuario previamente y fecha de ultimo backup.
 -Importante anadir este archivo en la carpeta .bashrc para que se inicie automaticamente al iniciar el sistema.
 
+### 4. cleanup.sh
+Actualizacion del sistema mediante sudo apt update y eliminacion de archivos temporales almacenados.
+
