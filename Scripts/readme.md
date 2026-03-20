@@ -13,7 +13,7 @@ Copia comprimida de /home/edgar en /var/backup.
 - Automatizacion (Crontab):
   01 12 * * 0 /bin/bash /home/edgar/backup/backup.sh >> /var/backup/backup.log 2>&1
 
-## Configuracion inicial
-```bash
-chmod +x *.sh
-sudo mkdir -p /var/backup && sudo chown edgar:edgar /var/backup
+### 3. welcome.sh
+Configuracion de bienvenida que muestra informacion general (datos del usuario, hora, calendario, recordatorios creados por el usuario previamente y fecha de ultimo backup.
+-Importante anadir este archivo en la carpeta .bashrc para que se inicie automaticamente al iniciar el sistema.
+
