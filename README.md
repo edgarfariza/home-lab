@@ -5,7 +5,7 @@ Bienvenido al repositorio de mi **Home Lab** personal. Este proyecto es mi entor
 ##  Descripción del Entorno
 * **SO:** Ubuntu Server 24.04 LTS (Virtualizado).
 * **Foco Principal:** Scripting en Bash, monitorización de la salud del sistema y mantenimiento automatizado.
-* **Objetivo:** Unificar el desarrollo de software con la infraestructura cloud [cite: 15-03-2026].
+* **Objetivo:** Unificar el desarrollo de software con la infraestructura cloud.
 
 ##  Contenidos del Repositorio
 * **Scripts de Bash:** Automatización de copias de seguridad (backups comprimidos) y monitorización de recursos (CPU/RAM).
