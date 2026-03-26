@@ -18,8 +18,6 @@ Para entrar al servidor de forma profesional, he configurado una conexión media
 * **Adiós a las contraseñas:** Uso el algoritmo **ED25519** (curva elíptica). Es como tener una llave física digital en mi PC; el servidor me reconoce y me deja pasar sin pedir clave.
 * **Entorno Real:** Configurado desde la terminal **Warp** conectando a **Ubuntu**.
 
----
-*Este proyecto une la programación con la seguridad y administración de sistemas Linux.*
 
 ##  Hoja de Ruta de Aprendizaje
 * [x] Fundamentos de Bash Shell Scripting .
